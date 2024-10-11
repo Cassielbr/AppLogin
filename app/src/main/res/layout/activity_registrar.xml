@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:background="@drawable/edit_text_background"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/edNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/edUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:hint="Usuário" />
+
+    <EditText
+        android:id="@+id/edPass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:padding="8dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edPass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirme a Senha"
+        android:padding="8dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_selector"
+        android:text="Salvar" />
+
+    <Button
+        android:id="@+id/btnVolta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_selector"
+    android:text="Voltar" />
+</LinearLayout>

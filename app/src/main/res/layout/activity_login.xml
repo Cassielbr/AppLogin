@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/edLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:hint="Usuário" />
+
+    <EditText
+        android:id="@+id/edPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_selector"
+        android:text="Entrar" />
+    <Button
+        android:id="@+id/btnVolta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_selector"
+        android:text="Voltar" />
+
+
+
+</LinearLayout>
