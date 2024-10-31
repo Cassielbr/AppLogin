@@ -1,6 +1,7 @@
 ## App de Login
 
 ## 📱 Descrição
+O App de Login é um aplicativo simples que permite aos usuários registrar-se e fazer login em suas contas. Após o login, os usuários são direcionados para uma tela inicial.
 
 ## 🔧 Funcionalidades
 
@@ -79,6 +80,6 @@ Siga os passos abaixo para rodar o projeto localmente:
 **Cassiel** - Desenvolvedor - [GitHub](https://github.com/Cassielbr)
 
 ## 📄 Licença 
-Este projeto está licenciado sob os termos da licença MIT. Para mais detalhes, veja o arquivo [LICENSE](LICENSE).
+Este projeto está licenciado sob os termos da licença MIT. Para mais detalhes, veja o arquivo [LICENSE](https://github.com/Cassielbr/AppLogin/blob/master/LICENSE).
 
 
