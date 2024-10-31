@@ -11,7 +11,7 @@ O App de Login é um aplicativo simples que permite aos usuários registrar-se e
 - [x] Armazenamento de credenciais
 
 ## 🚀 Tecnologias Utilizadas
-- [x] Android Studio (Bumblebee | 2021.1.1)
+- [x] **Android Studio** (Bumblebee | 2024.1.2)
 - [x] Java para desenvolvimento
 - [x] SQLite para gerenciamento de banco de dados
 - [x] ConstraintLayout para interface responsiva
